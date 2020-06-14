@@ -1,0 +1,130 @@
+html, body {
+    font-family: 'Roboto', sans-serif;
+    scroll-behavior: smooth;
+}
+
+/* Navigation */
+.navbar {
+    padding: 0.8rem;
+    background-color: #FEF5EF;
+}
+
+.navbar-nav li {
+    padding-right: 1.3rem;
+}
+
+.navbar-nav li a {
+    text-decoration: none;
+    color: #48b8d0;
+}
+
+.navbar-nav li a:hover {
+    color: #2f9eb6;
+}
+
+.active {
+    border: 1px solid;
+    background-color: #48b8d0;
+    color: #FEF5EF !important;
+    border-radius: 5px;
+}
+
+.active:hover {
+    background-color: #2f9eb6;
+    text-decoration: none;
+    color: #FEF5EF;
+}
+
+.nav-link {
+    font-size: 1.1em;
+}
+
+.navbar-nav .nav-link {
+    text-align: center;
+}
+
+/* Odabir velicine */
+.jumbotron {
+    background-color: #e4bb97;
+    margin: 5rem 0;
+    color: #FEF5EF;
+}
+
+.jumbotron h1 {
+    padding: 2rem 0;
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+.red {
+    color: #f84646;
+    font-weight: bold;
+}
+
+.border2 {
+    border: 3px solid #2f9eb6;
+}
+
+.row img {
+    display: inline-block;
+    width: 100%;
+}
+
+.row {
+    margin: 3rem 0;
+}
+
+/* Karakteristike */
+.tekst {
+    background-color: #e4bb97;
+    color: #FEF5EF;
+    border-radius: 10px;
+    padding: 1rem 4rem;
+}
+
+.tekst > h2 {
+    font-weight: bold;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.pozadina {
+    background-color: #FEF5EF;
+}
+
+/* Footer */
+footer {
+    background-color: #3f3f3f;
+    color: #FEF5EF;
+    padding: 0.7rem;
+}
+
+@media (max-width: 768px){
+    .jumbotron {
+        margin: 1rem 0;
+    }
+    
+    .jumbotron h1 {
+        padding: 1rem 0;
+        font-size: 2rem;
+    }
+
+    .row {
+        margin: 1rem 0;
+    }
+
+    .margin-bot {
+        margin-bottom: 1rem;
+    }
+
+    .poredak1, .poredak2, .poredak3, .poredak4, .poredak5, .poredak6, .poredak7, .poredak8 {
+        display: flex;
+        flex-direction: column;
+        margin: 1rem 0;
+    }
+
+    .poredak1 div:first-child, .poredak2 div:last-child, .poredak3 div:first-child, .poredak4 div:last-child, .poredak5 div:first-child, .poredak6 div:last-child, .poredak7 div:first-child, .poredak8 div:last-child {
+        order: 2;
+        margin-top: 1rem;
+    }
+}
