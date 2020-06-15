@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Keys - Home</title>
+    <title>Keys - Contact Us</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/contact_us.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
@@ -27,7 +27,7 @@
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a href="index.html" class="nav-link active">Home</a>
+                        <a href="index.html" class="nav-link">Home</a>
                     </li>
                     <li class="nav-item">
                         <a href="backing_plates.html" class="nav-link">Backing Plates</a>
@@ -42,7 +42,7 @@
                         <a href="about.html" class="nav-link">About</a>
                     </li>
                     <li class="nav-item">
-                        <a href="contact_us.html" class="nav-link">Contact Us</a>
+                        <a href="contact_us.html" class="nav-link active">Contact Us</a>
                     </li>
                 </ul>
             </div>
@@ -50,55 +50,42 @@
     </nav>
     <!-- Jumbotron -->
     <div class="container-fluid">
-        <div class="row jumbotron">
-            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
-                <img src="./img/bannerImage.png" alt="Slika custom tipkovnice">
-            </div>
-            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 text-center center">
-                <h1><span class="grey">KEY</span><span class="red">S</span> keyboards</h1>
-                <p>Unique, Programmable, highly customizable</p>
-                <p>Everything every PC enthusiast will ever want!</p>
-            </div>
+        <div class="jumbotron text-center">
+            <h1>Contact Us</h1>
+            <p>Have unique  idea in mind? Feel free to contact us and we will arrange meeting.</p>
+            <p>You built awesome keyboard and want to show it off? Just send us message and we will showcase it on out page!</p>
         </div>
     </div>
-    <!-- Proces slaganja -->
+    <!-- Form -->
     <div class="container-fluid">
-        <div class="row proces poredak1">
-            <div class="col-xs-12 col-sm-12 col-md-6">
-                <img src="./img/keyboardFrame.jpg" alt="Okvir za tipkovnicu">
+        <form method="POST" data-netlify="true" data-netlify-recaptcha="true">
+            <div class="form-row">
+              <div class="col">
+                <input type="text" class="form-control" placeholder="First name" name="name">
+              </div>
+              <div class="col">
+                <input type="text" class="form-control" placeholder="Last name" name="lastname">
+              </div>
             </div>
-            <div class="col-xs-12 col-sm-12 col-md-6 text-center center2">
-                <h2>Keyboard Frame</h2>
-                <p>Process begins with deciding witch keyboard frame suits you the most. Sometimes going with smaller form factor benefits your productivity and clean setup estethics. Other times full layout keyboards bring endles possiblities using extra programmable keys. Everything is up to you!</p>
+            <div class="form-row">
+                <label for="exampleFormControlInput1">Email address:</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
             </div>
-        </div>
-        <div class="row proces poredak2">
-            <div class="col-xs-12 col-sm-12 col-md-6 text-center center2">
-                <h2>Keyboard Switches</h2>
-                <p>Process begins with deciding witch keyboard frame suits you the most. Sometimes going with smaller form factor benefits your productivity and clean setup estethics. Other times full layout keyboards bring endles possiblities using extra programmable keys. Everything is up to you!</p>
+            <div class="form-row">
+                <label for="exampleFormControlTextarea1">Write us your message:</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"  placeholder="Your message goes here..." name="email" name="message"></textarea>
             </div>
-            <div class="col-xs-12 col-sm-12 col-md-6">
-                <img src="./img/keyboardSwitches.jpg" alt="Switches za tipkovnicu">
+            <div class="form-row">
+                <label for="exampleFormControlFile1">Upload you pictures:</label>
+                <input type="file" class="form-control-file" id="exampleFormControlFile1" name="photo">
             </div>
-        </div>
-        <div class="row proces poredak3">
-            <div class="col-xs-12 col-sm-12 col-md-6">
-                <img src="./img/keyboardKeycaps.jpg" alt="Keycapovi za tipkovnicu">
+            <div class="m-t-2 m-b-2">
+                <div data-netlify-recaptcha="true"></div>
             </div>
-            <div class="col-xs-12 col-sm-12 col-md-6 text-center center2">
-                <h2>Keyboard Keycaps</h2>
-                <p>Process begins with deciding witch keyboard frame suits you the most. Sometimes going with smaller form factor benefits your productivity and clean setup estethics. Other times full layout keyboards bring endles possiblities using extra programmable keys. Everything is up to you!</p>
+            <div class="form-row button">
+                <button type="submit" class="btn btn-info mb-2">Submit Form</button>
             </div>
-        </div>
-        <div class="row proces poredak4">
-            <div class="col-xs-12 col-sm-12 col-md-6 text-center center2">
-                <h2>Finished Keyboard</h2>
-                <p>Process begins with deciding witch keyboard frame suits you the most. Sometimes going with smaller form factor benefits your productivity and clean setup estethics. Other times full layout keyboards bring endles possiblities using extra programmable keys. Everything is up to you!</p>
-            </div>
-            <div class="col-xs-12 col-sm-12 col-md-6">
-                <img src="./img/keyboardFinished.jpg" alt="Keycapovi za tipkovnicu">
-            </div>
-        </div>
+        </form>
     </div>
     <!-- Footer -->
     <footer>

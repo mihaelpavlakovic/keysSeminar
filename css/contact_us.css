@@ -46,57 +46,31 @@ html, body {
 .jumbotron {
     background-color: #e4bb97;
     margin: 5rem 0;
-}
-
-.jumbotron img {
-    display: inline-block;
-    width: 100%;
-}
-
-.jumbotron .center {
-    padding-top: 10%;
     color: #FEF5EF;
-    font-weight: bold;
-    letter-spacing: 1px;
 }
 
 .jumbotron h1 {
-    font-weight: bold;
+    padding: 2rem 0;
     font-size: 4rem;
-}
-
-.red {
-    color: #f84646;
-}
-
-.grey {
-    color: #aeaeae;
-}
-
-.row img {
-    display: inline-block;
-    width: 100%;
-    border-radius: 10px;
-}
-
-/* Proces slaganja */
-.proces {
-    margin: 5rem 0;
-}
-
-.row .center2 {
-    padding-top: 10%;
-    color: #FEF5EF;
-    background-color: #48b8d0;
-    border-radius: 10px;
-}
-
-.row h2 {
     font-weight: bold;
 }
 
-.row p {
-    padding: 0 10%;
+/* Form */
+.form-row {
+    padding-bottom: 20px;
+    margin: 0px 30px;
+}
+
+.form-row>.col, .form-row>[class*=col-] {
+    padding: 0;
+}
+
+textarea.form-control {
+    padding: 1rem 1rem;
+}
+
+textarea.form-control {
+    height: 150px;
 }
 
 /* Footer */
@@ -120,44 +94,12 @@ hr.light {
 
 @media (max-width: 768px){
     .jumbotron {
-        display: flex;
-        flex-direction: column;
         margin: 1rem 0;
-        padding: 0;
     }
-
+    
     .jumbotron h1 {
+        padding: 1rem 0;
         font-size: 3rem;
-    }
-
-    .jumbotron div:first-child {
-        order: 2;
-    }
-
-    .jumbotron .center {
-        padding-bottom: 3rem;
-        color: #FEF5EF;
-        font-weight: bold;
-        letter-spacing: 1px;
-    }
-
-    .jumbotron img {
-        padding-bottom: 2rem;
-    }
-
-    .poredak1, .poredak2, .poredak3, .poredak4 {
-        display: flex;
-        flex-direction: column;
-        margin: 1rem 0;
-    }
-
-    .poredak1 div:first-child, .poredak2 div:last-child, .poredak3 div:first-child, .poredak4 div:last-child {
-        order: 2;
-        margin-top: 1rem;
-    }
-
-    .proces .center2 {
-        padding: 2rem 0;
     }
 
     footer .col-md-6:first-child  {
