@@ -1,5 +1,6 @@
 html, body {
     font-family: 'Roboto', sans-serif;
+    scroll-behavior: smooth;
 }
 
 /* Navigation */
@@ -40,4 +41,49 @@ html, body {
 
 .navbar-nav .nav-link {
     text-align: center;
+}
+
+/* Jumbotron */
+.jumbotron {
+    background-color: #e4bb97;
+    margin: 5rem 0;
+    color: #FEF5EF;
+}
+
+.jumbotron h1 {
+    padding: 2rem 0;
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+.red {
+    color: #f84646;
+    font-weight: bold;
+}
+
+.row img {
+    display: inline-block;
+    width: 100%;
+}
+
+/* Footer */
+footer {
+    background-color: #3f3f3f;
+    color: #FEF5EF;
+    padding: 0.7rem;
+}
+
+@media (max-width: 768px){
+    .jumbotron {
+        margin: 1rem 0;
+    }
+    
+    .jumbotron h1 {
+        padding: 1rem 0;
+        font-size: 2rem;
+    }
+
+    .row img {
+        padding: 20px 0px;
+    }
 }
