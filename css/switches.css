@@ -41,3 +41,66 @@ html, body {
 .navbar-nav .nav-link {
     text-align: center;
 }
+
+/* Jumbotron */
+.jumbotron {
+    background-color: #e4bb97;
+    margin: 5rem 0;
+    color: #FEF5EF;
+}
+
+.jumbotron h1 {
+    padding: 2rem 0;
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+.red {
+    color: #f84646;
+    font-weight: bold;
+}
+
+.row img {
+    display: inline-block;
+    width: 50%;
+}
+
+.row {
+    margin: 2rem 0;
+}
+
+.tekst {
+    padding: 30px 20px;
+    background-color: #48b8d0;
+    color: #FEF5EF;
+    border-radius: 10px;
+}
+
+/* Footer */
+footer {
+    background-color: #3f3f3f;
+    color: #FEF5EF;
+    padding: 0.7rem;
+}
+
+@media (max-width: 768px){
+    .jumbotron {
+        margin: 1rem 0;
+    }
+    
+    .jumbotron h1 {
+        padding: 1rem 0;
+        font-size: 2rem;
+    }
+
+    .poredak1, .poredak2, .poredak3, .poredak4, .poredak5, .poredak6 {
+        display: flex;
+        flex-direction: column;
+        margin: 1rem 0;
+    }
+
+    .poredak1 div:first-child, .poredak2 div:last-child, .poredak3 div:first-child, .poredak4 div:last-child, .poredak5 div:first-child, .poredak6 div:last-child {
+        order: 2;
+        margin-top: 1rem;
+    }
+}
