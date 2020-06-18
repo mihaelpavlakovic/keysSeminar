@@ -6,7 +6,7 @@ html, body {
 /* Navigation */
 .navbar {
     padding: 0.8rem;
-    background-color: #FEF5EF;
+    background-color: white;
 }
 
 .navbar-nav li {
@@ -25,14 +25,14 @@ html, body {
 .active {
     border: 1px solid;
     background-color: #48b8d0;
-    color: #FEF5EF !important;
+    color: white !important;
     border-radius: 5px;
 }
 
 .active:hover {
     background-color: #2f9eb6;
     text-decoration: none;
-    color: #FEF5EF;
+    color: white;
 }
 
 .nav-link {
@@ -43,11 +43,15 @@ html, body {
     text-align: center;
 }
 
+.navbar-nav:first-child {
+    margin-top: 20px;
+}
+
 /* Odabir velicine */
 .jumbotron {
     background-color: #e4bb97;
-    margin: 5rem 0;
-    color: #FEF5EF;
+    margin: 2rem 0;
+    color: white;
 }
 
 .jumbotron h1 {
@@ -74,10 +78,14 @@ html, body {
     margin: 3rem 0;
 }
 
+.pozicija {
+    padding: 6rem 0;
+}
+
 /* Karakteristike */
 .tekst {
     background-color: #e4bb97;
-    color: #FEF5EF;
+    color: white;
     border-radius: 10px;
     padding: 1rem 4rem;
 }
@@ -95,7 +103,7 @@ html, body {
 /* Footer */
 footer {
     background-color: #3f3f3f;
-    color: #FEF5EF;
+    color: white;
     padding: 0.7rem;
 }
 
@@ -111,6 +119,10 @@ footer {
 
     .row {
         margin: 1rem 0;
+    }
+
+    .pozicija {
+        padding: 2rem 0;
     }
 
     .margin-bot {

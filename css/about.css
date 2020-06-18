@@ -5,7 +5,7 @@ html, body {
 /* Navigation */
 .navbar {
     padding: 0.8rem;
-    background-color: #FEF5EF;
+    background-color: white;
 }
 
 .navbar-nav li {
@@ -24,14 +24,14 @@ html, body {
 .active {
     border: 1px solid;
     background-color: #48b8d0;
-    color: #FEF5EF !important;
+    color: white !important;
     border-radius: 5px;
 }
 
 .active:hover {
     background-color: #2f9eb6;
     text-decoration: none;
-    color: #FEF5EF;
+    color: white;
 }
 
 .nav-link {
@@ -40,4 +40,8 @@ html, body {
 
 .navbar-nav .nav-link {
     text-align: center;
+}
+
+.navbar-nav:first-child {
+    margin-top: 20px;
 }
