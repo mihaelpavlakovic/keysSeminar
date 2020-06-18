@@ -68,7 +68,12 @@ html, body {
 }
 
 .centriranje {
-    margin: 0 auto;
+    margin: 2rem auto;
+    width: 1200px;
+}
+
+.centriranje2 {
+    margin: 2rem auto;
     width: 1200px;
 }
 
@@ -82,6 +87,11 @@ footer {
 @media (max-width: 992px) {
     .centriranje {
         margin: 0 auto;
+        width: 780px;
+    }
+
+    .centriranje2 {
+        margin: 2rem auto;
         width: 780px;
     }
 }
@@ -102,6 +112,11 @@ footer {
 
     .centriranje {
         margin: 0 auto;
+        width: 450px;
+    }
+
+    .centriranje2 {
+        margin: 2rem auto;
         width: 450px;
     }
 
