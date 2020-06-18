@@ -77,11 +77,16 @@ textarea.form-control {
     height: 150px;
 }
 
+.map {
+    height: 100%;
+}
+
 /* Footer */
 footer {
     background-color: #3f3f3f;
     color: white;
     padding-top: 2rem;
+    margin-top: 30px;
 }
 
 .footer-slika {
@@ -108,5 +113,17 @@ hr.light {
 
     footer .col-md-6:first-child  {
         padding-bottom: 2rem;
+    }
+
+    footer {
+        margin-top: 10px;
+    }
+
+    .odmak {
+        margin-bottom: 20px;
+    }
+
+    .map {
+        margin-bottom: 100px;
     }
 }
