@@ -45,3 +45,67 @@ html, body {
 .navbar-nav:first-child {
     margin-top: 20px;
 }
+
+/* Jumbotron */
+.jumbotron {
+    background-color: #e4bb97;
+    margin: 2rem 0;
+    color: white;
+}
+
+.jumbotron h1 {
+    padding: 2rem 0;
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+.jumbotron p {
+    padding: 0 3rem;
+}
+
+.odmak {
+    margin: 2rem 0;
+}
+
+.centriranje {
+    margin: 0 auto;
+    width: 1200px;
+}
+
+/* Footer */
+footer {
+    background-color: #3f3f3f;
+    color: white;
+    padding: 2.7rem;
+}
+
+@media (max-width: 992px) {
+    .centriranje {
+        margin: 0 auto;
+        width: 780px;
+    }
+}
+
+@media (max-width: 768px){
+    .jumbotron {
+        margin: 1rem 0;
+    }
+    
+    .jumbotron h1 {
+        padding: 1rem 0;
+        font-size: 2rem;
+    }
+
+    .jumbotron p {
+        padding: 0 2rem;
+    }
+
+    .centriranje {
+        margin: 0 auto;
+        width: 450px;
+    }
+
+    .row {
+        margin: 1rem 0;
+    }
+}
