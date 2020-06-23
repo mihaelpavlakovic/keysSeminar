@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="258" height="60" viewBox="0 0 258 60">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #aeaeae;
+      }
+
+      .cls-2 {
+        font-size: 33.333px;
+        font-family: ArialNarrow-Bold, Arial;
+        font-weight: 700;
+      }
+
+      .cls-3 {
+        fill: #f84646;
+      }
+    </style>
+  </defs>
+  <rect id="K" class="cls-1" width="60" height="60" rx="5" ry="5"/>
+  <text id="K_letter" data-name="K letter" class="cls-2" x="18.355" y="41.399">K</text>
+  <rect id="E" class="cls-1" x="66" width="60" height="60" rx="5" ry="5"/>
+  <text id="E_letter" data-name="E letter" class="cls-2" x="84.654" y="41.098">E</text>
+  <rect id="Y" class="cls-1" x="132" width="60" height="60" rx="5" ry="5"/>
+  <text id="Y_letter" data-name="Y letter" class="cls-2" x="150.584" y="41.399">Y</text>
+  <rect id="S" class="cls-3" x="198" width="60" height="60" rx="5" ry="5"/>
+  <text id="S_letter" data-name="S letter" class="cls-2" x="218.369" y="41.399">S</text>
+</svg>
